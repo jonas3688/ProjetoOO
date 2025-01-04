@@ -1,10 +1,8 @@
-# ProjetoOO
+# ProjetoOO MERCADO
 Projeto de atividade livre da matéria de Orientação a Objetos 2024/2 ministrado pelo professor Henrique Gomes.
 
 Nome: João Guilherme
 Matrícula: 232027476
-
----
 
 ## :warning: Importante :warning:
 Este é meu primeiro projeto em python aplicando os conceitos da programação e orientação a objetos,
@@ -105,18 +103,14 @@ A classe Usuario e seus métodos estão presentes no arquivo telainicial.py na p
 ## Arquivos
 
 ### iniciarApp.sh
-#### Resumo:
 Script responsável por iniciar o programa no sistema operacional linux, simplismente executa o arquivo start.py dentro da pasta arquivosPy usando o python3
 
 ### ArquivosPy/start.py
-#### Resumo:
 Responsável por unir os dois sistemas principais.
 O arquivo direciona o usuário para o login, presente no arquivo telainical.py e espera o retorno do arquivo, que dependendo ou encerra o programa inteiro ou redireciona o 
 usuário para o sistema presente no mercado.py
 
-
 ### ArquivosPy/comandos.py
-#### Resumo:
 Arquivo feito para organização e simplificação dos outros dois arquivos principais. 
 Os métodos presentes nesse arquivo foram muito utilizados no projeto inteiro, portanto fiz esse arquivo para deixar
 os demais arquivos mais simplificados
@@ -129,13 +123,33 @@ Imprime uma mensagem na tela do usuario e aguarda ele apertar qualquer tecla par
 Usa a biblioteca os para limpar o terminal do linux 
 
 ### ArquivosPy/telainicial.py
-#### Resumo:
-Arquivo onde a classe Usuario está presente, no arquivo o 
+Arquivo onde a classe Usuario está presente, junto a ela está presente o sistema de login e cadastro que foi utilizado no projeto
+
+#### Classe:
+Atributos:
+```
+usuario (Nome de usuário que é utilizado no login)
+senha (senha que será utilizada para fazer o login)
+permissao (permissão do usuario, 1 representa administrador e 0 representa usuario comum)
+```
+#### Métodos de classe:
+##### verificaSenha()
+confere se a senha armazenada no objeto é igual a senha que foi utilizada para fazer o login
 
 #### Métodos:
+##### telaLogado(objetoUsuario)
+Redireciona o usuario para a tela pós login dependendo de sua permissão, utiliza como parametro o objeto inteiro que foi passada a ela
+
+##### 
+
+
+
+
+
+
 
 ### ArquivosPy/mercado.py
-#### Resumo:
+Arquivo onde está presente a classe Produto, junto a ela está o sistema de cadastro e monitoramento de produtos do supermercado, 
 
 #### Métodos:
 
