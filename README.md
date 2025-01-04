@@ -14,6 +14,13 @@ Deixei os arquivos separados para deixar mais modularizado e organizado, mais in
 
 ---
 
+# Sumário
+1.
+2.
+3.
+4.
+5.
+
 ## Problema a ser resolvido
 O problema escolhido foi o gerenciamento de um supermercado tradicional, onde era necessário ter um controle sobre o estoque e preço de diversos produtos.
 Considerando que esse supermercado era composto por uma equipe de vários funcionarios, foi necessário criar um sistema de login para poder registrar
@@ -93,16 +100,43 @@ Permissão
 ```
 A classe Usuario e seus métodos estão presentes no arquivo telainicial.py na pasta arquivosPy
 
+---
+
 ## Arquivos
 
 ### iniciarApp.sh
+#### Resumo:
+Script responsável por iniciar o programa no sistema operacional linux, simplismente executa o arquivo start.py dentro da pasta arquivosPy usando o python3
 
 ### ArquivosPy/start.py
+#### Resumo:
+Responsável por unir os dois sistemas principais.
+O arquivo direciona o usuário para o login, presente no arquivo telainical.py e espera o retorno do arquivo, que dependendo ou encerra o programa inteiro ou redireciona o 
+usuário para o sistema presente no mercado.py
+
 
 ### ArquivosPy/comandos.py
+#### Resumo:
+Arquivo feito para organização e simplificação dos outros dois arquivos principais. 
+Os métodos presentes nesse arquivo foram muito utilizados no projeto inteiro, portanto fiz esse arquivo para deixar
+os demais arquivos mais simplificados
+
+#### Métodos:
+##### pressioneParaContinuar()
+Imprime uma mensagem na tela do usuario e aguarda ele apertar qualquer tecla para continuar a execução do programa
+
+##### limpaTela()
+Usa a biblioteca os para limpar o terminal do linux 
 
 ### ArquivosPy/telainicial.py
+#### Resumo:
+Arquivo onde a classe Usuario está presente, no arquivo o 
+
+#### Métodos:
 
 ### ArquivosPy/mercado.py
+#### Resumo:
+
+#### Métodos:
 
 
