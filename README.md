@@ -2,6 +2,7 @@
 Projeto de atividade livre da matéria de Orientação a Objetos 2024/2 ministrado pelo professor Henrique Gomes.
 
 Nome: João Guilherme
+
 Matrícula: 232027476
 
 ## :warning: Importante :warning:
@@ -105,10 +106,14 @@ A classe Usuario e seus métodos estão presentes no arquivo telainicial.py na p
 ### iniciarApp.sh
 Script responsável por iniciar o programa no sistema operacional linux, simplismente executa o arquivo start.py dentro da pasta arquivosPy usando o python3
 
+---
+
 ### ArquivosPy/start.py
 Responsável por unir os dois sistemas principais.
 O arquivo direciona o usuário para o login, presente no arquivo telainical.py e espera o retorno do arquivo, que dependendo ou encerra o programa inteiro ou redireciona o 
 usuário para o sistema presente no mercado.py
+
+---
 
 ### ArquivosPy/comandos.py
 Arquivo feito para organização e simplificação dos outros dois arquivos principais. 
@@ -117,10 +122,12 @@ os demais arquivos mais simplificados
 
 #### Métodos:
 ##### pressioneParaContinuar()
-Imprime uma mensagem na tela do usuario e aguarda ele apertar qualquer tecla para continuar a execução do programa
+>Imprime uma mensagem na tela do usuario e aguarda ele apertar qualquer tecla para continuar a execução do programa
 
 ##### limpaTela()
-Usa a biblioteca os para limpar o terminal do linux 
+>Usa a biblioteca os para limpar o terminal do linux 
+
+---
 
 ### ArquivosPy/telainicial.py
 Arquivo onde a classe Usuario está presente, junto a ela está presente o sistema de login e cadastro que foi utilizado no projeto
@@ -134,11 +141,11 @@ permissao (permissão do usuario, 1 representa administrador e 0 representa usua
 ```
 #### Métodos de classe:
 ##### verificaSenha()
-confere se a senha armazenada no objeto é igual a senha que foi utilizada para fazer o login
+>confere se a senha armazenada no objeto é igual a senha que foi utilizada para fazer o login
 
 #### Métodos:
 ##### telaLogado(objetoUsuario)
-Redireciona o usuario para a tela pós login dependendo de sua permissão, utiliza como parametro o objeto inteiro que foi passada a ela
+>Redireciona o usuario para a tela pós login dependendo de sua permissão, utiliza como parametro o objeto inteiro que foi passada a ela
 
 ##### 
 
@@ -147,6 +154,7 @@ Redireciona o usuario para a tela pós login dependendo de sua permissão, utili
 
 
 
+---
 
 ### ArquivosPy/mercado.py
 Arquivo onde está presente a classe Produto, junto a ela está o sistema de cadastro e monitoramento de produtos do supermercado, 
