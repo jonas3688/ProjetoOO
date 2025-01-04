@@ -1,7 +1,7 @@
 # ProjetoOO
 Projeto de atividade livre da matéria de Orientação a Objetos 2024/2
 
-##Resumo Funcionalidades
+## Resumo Funcionalidades
 O projeto consiste em um sistema de gerenciamento de um supermercado, capaz de armazenar:
 
 - Nome
@@ -15,7 +15,7 @@ sejam monitoradas, colaborando para o melhor funcionamento do sistema quando ali
 
 ---
 
-##Instalação
+## Instalação
 Esse projeto foi testado utilizando o sistema operacional Linux Mint 21.3 com o kernel 6.8.0-50-generic
 
 Para inciarmos a instalação primeiramente atualizaremos os pacotes do sistema com o respectivo comando:
