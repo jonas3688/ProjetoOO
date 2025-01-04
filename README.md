@@ -30,7 +30,7 @@ restritas.
 ---
  
 ## Resumo Funcionalidades
-O projeto consiste em um sistema de gerenciamento de um supermercado, capaz de armazenar:
+O projeto consiste em um sistema de gerenciamento de um supermercado, capaz de armazenar as seguintes informações sobre um produto:
 
 - Nome;
 - Preço;
