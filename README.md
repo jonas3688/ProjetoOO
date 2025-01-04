@@ -233,8 +233,12 @@ descricao (Descrição do produto)
 ##### apresentaOpcoesFuncionario(nomeUsuario)
 >Imprime na tela as opções que podem ser utilizadas no menu do usuario comum
 
+---
+
 ### ArquivosPy/usuarios.bin
 Arquivo que será criado pelo arquivo telaincial.py e será utilizado para armazenar os logins do sistema
+
+---
 
 ### ArquivosPy/estoque.bin
 Arquivo que será criado pelo arquivo mercado.py e será utilizado para armazenar os dados dos produtos cadastrados
